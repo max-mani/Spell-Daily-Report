@@ -159,37 +159,37 @@ export default function Home() {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
               <Image src="/accomplishments.svg" alt="Accomplishments label" width={280} height={70} />
             </div>
-            <div className="absolute top-8 left-0 right-0 flex justify-around px-8 overflow-visible">
+            <div className="absolute top-8 left-0 right-0 flex justify-around pl-12 pr-8 overflow-visible">
               {/* Number 12 with fire BEHIND - text below number */}
-              <div className="flex flex-col items-center relative">
-                <div className="relative flex items-center justify-center">
-                  <div className="absolute z-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <Image src="/fire.svg" alt="Fire streak" width={178} height={200} />
+              <div className="flex flex-col items-center relative w-[45%] max-w-[300px]">
+                <div className="relative flex items-center justify-center" style={{ minHeight: '200px', marginBottom: '16px' }}>
+                  <div className="absolute top-[32%] z-0 left-0 top-1/2 -translate-x-1/2 -translate-y-1/2" style={{ width: '178px', height: '200px', zIndex: 0 }}>
+                    <Image src="/fire.svg" alt="Fire streak" width={178} height={200} className="w-full h-full" style={{ position: 'absolute', zIndex: 0 }} />
                   </div>
-                  <span className="text-[160px] relative z-10" style={numberStyle}>
+                  <span className="text-[160px] relative z-10" style={{ ...numberStyle, position: 'relative', zIndex: 10 }}>
                     {accomplishments.daysStreak}
                   </span>
                 </div>
                 <p
-                  className="text-base text-center max-w-[200px] mt-2"
-                  style={{ fontFamily: "Georgia, serif", color: "#000000" }}
+                  className="text-base text-center max-w-[280px] relative z-20 px-2"
+                  style={{ fontFamily: "Georgia, serif", color: "#000000", wordWrap: "break-word", position: 'relative', zIndex: 20, marginTop: '8px' }}
                 >
                   <span className="font-bold" style={{ color: "#000000" }}>{accomplishments.daysStreak} days</span> - unstoppable consistency!
                 </p>
               </div>
               {/* Number 16 with bullseye BEHIND - text below number */}
-              <div className="flex flex-col items-center relative">
-                <div className="relative flex items-center justify-center">
-                  <div className="absolute z-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <Image src="/bullseye.svg" alt="Bullseye" width={320} height={320} />
+              <div className="flex flex-col items-center relative w-[45%] max-w-[300px]">
+                <div className="relative flex items-center justify-center" style={{ minHeight: '200px', marginBottom: '16px' }}>
+                  <div className="absolute top-[32%] z-0 left-0 top-1/2 -translate-x-1/2 -translate-y-1/2" style={{ width: '220px', height: '220px', zIndex: 0 }}>
+                    <Image src="/bullseye.svg" alt="Bullseye" width={220} height={220} className="w-full h-full" style={{ position: 'absolute', zIndex: 0 }} />
                   </div>
-                  <span className="text-[160px] relative z-10" style={numberStyle}>
+                  <span className="text-[160px] relative z-10" style={{ ...numberStyle, position: 'relative', zIndex: 10 }}>
                     {accomplishments.bullseyeCount}
                   </span>
                 </div>
                 <p
-                  className="text-base text-center max-w-[220px] mt-2"
-                  style={{ fontFamily: "Georgia, serif", color: "#000000" }}
+                  className="text-base text-center max-w-[280px] relative z-20 px-2"
+                  style={{ fontFamily: "Georgia, serif", color: "#000000", wordWrap: "break-word", position: 'relative', zIndex: 20, marginTop: '8px' }}
                 >
                   A bullseye means your child completed the day&apos;s tasks with zero mistakes.
                 </p>

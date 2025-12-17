@@ -582,6 +582,34 @@ export function PdfDownloadButton() {
         }
       })
       
+      // Step 7c: Fix accomplishments container text z-index to prevent overlay
+      const accomplishmentsTexts = clonedElement.querySelectorAll('p[class*="text-base"]')
+      accomplishmentsTexts.forEach((textEl) => {
+        const htmlText = textEl as HTMLElement
+        const computedStyle = window.getComputedStyle(htmlText)
+        // Ensure text has proper z-index and doesn't overlay numbers/images
+        if (computedStyle.position === 'relative' || computedStyle.position === 'absolute') {
+          htmlText.style.zIndex = '20'
+          htmlText.style.position = 'relative'
+        }
+      })
+      
+      // Ensure accomplishments images and numbers have proper z-index
+      const accomplishmentsImages = clonedElement.querySelectorAll('img[alt*="Fire"], img[alt*="Bullseye"]')
+      accomplishmentsImages.forEach((imgEl) => {
+        const htmlImg = imgEl as HTMLElement
+        htmlImg.style.zIndex = '0'
+      })
+      
+      const accomplishmentsNumbers = clonedElement.querySelectorAll('span[style*="font-pattaya"]')
+      accomplishmentsNumbers.forEach((numEl) => {
+        const htmlNum = numEl as HTMLElement
+        const computedStyle = window.getComputedStyle(htmlNum)
+        if (computedStyle.position === 'relative' || computedStyle.position === 'absolute') {
+          htmlNum.style.zIndex = '10'
+        }
+      })
+      
       // Recalculate to ensure we have the full dimensions
       await new Promise(resolve => setTimeout(resolve, 200))
       void clonedElement.offsetHeight

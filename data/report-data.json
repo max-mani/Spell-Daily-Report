@@ -47,7 +47,7 @@
       { "word": "Calendar", "isCorrect": false },
       { "word": "Struggle", "isCorrect": false },
       { "word": "Essay", "isCorrect": false },
-      { "word": "Future", "isCorrect": false },
+      { "word": "Future", "isCorrect": true },
       { "word": "Culture", "isCorrect": false },
       { "word": "History", "isCorrect": false },
       { "word": "Survey", "isCorrect": false },
