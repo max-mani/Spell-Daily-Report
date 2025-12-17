@@ -1,0 +1,98 @@
+{
+  "overall": {
+    "wordsPracticed": 43
+  },
+  "thisMonth": {
+    "wordsPracticed": 28,
+    "wordsMissed": 15
+  },
+  "accomplishments": {
+    "daysStreak": 12,
+    "bullseyeCount": 16
+  },
+  "wordBank": {
+    "words": [
+      { "word": "Separate", "isCorrect": true },
+      { "word": "Disappear", "isCorrect": true },
+      { "word": "Appeal", "isCorrect": true },
+      { "word": "Knowledge", "isCorrect": true },
+      { "word": "Surprise", "isCorrect": true },
+      { "word": "Cupboard", "isCorrect": true },
+      { "word": "Awkward", "isCorrect": true },
+      { "word": "Definitely", "isCorrect": true },
+      { "word": "Necessary", "isCorrect": true },
+      { "word": "Muscle", "isCorrect": true },
+      { "word": "Foreign", "isCorrect": true },
+      { "word": "February", "isCorrect": true },
+      { "word": "Grammar", "isCorrect": true },
+      { "word": "Possible", "isCorrect": true },
+      { "word": "Schedule", "isCorrect": true },
+      { "word": "Library", "isCorrect": true },
+      { "word": "Umbrella", "isCorrect": true },
+      { "word": "Fantasy", "isCorrect": true },
+      { "word": "Opinion", "isCorrect": true },
+      { "word": "Envelope", "isCorrect": true },
+      { "word": "Visualise", "isCorrect": true },
+      { "word": "Tradition", "isCorrect": true },
+      { "word": "Generous", "isCorrect": true },
+      { "word": "Bamboo", "isCorrect": true },
+      { "word": "Composition", "isCorrect": true },
+      { "word": "Labour", "isCorrect": true },
+      { "word": "Creative", "isCorrect": true },
+      { "word": "Moisture", "isCorrect": true },
+      { "word": "Pressure", "isCorrect": false },
+      { "word": "Naughty", "isCorrect": false },
+      { "word": "Parallel", "isCorrect": false },
+      { "word": "Island", "isCorrect": false },
+      { "word": "Calendar", "isCorrect": false },
+      { "word": "Struggle", "isCorrect": false },
+      { "word": "Essay", "isCorrect": false },
+      { "word": "Future", "isCorrect": false },
+      { "word": "Culture", "isCorrect": false },
+      { "word": "History", "isCorrect": false },
+      { "word": "Survey", "isCorrect": false },
+      { "word": "Flavour", "isCorrect": false },
+      { "word": "Measure", "isCorrect": false },
+      { "word": "Assemble", "isCorrect": false },
+      { "word": "Dessert", "isCorrect": false }
+    ]
+  },
+  "progressContainers": [
+    {
+      "word": "February",
+      "days": ["DAY - 5", "DAY - 6", "DAY - 7", "DAY - 8", "DAY - 11", "DAY - 13"],
+      "spellings": ["Feburary", "Feburary", "Februray", "February", "February", "February"],
+      "statuses": ["incorrect", "incorrect", "incorrect", "correct", "correct", "correct"],
+      "note": "With steady practice, she achieved the correct spelling on Day 8"
+    },
+    {
+      "word": "Definitely",
+      "days": ["DAY - 3", "DAY - 5", "DAY - 6", "DAY - 8"],
+      "spellings": ["Dafinately", "Definielty", "Definitely", "Definitely"],
+      "statuses": ["incorrect", "incorrect", "correct", "correct"],
+      "note": "From Day 6, she started to spell 'definitely' right!"
+    },
+    {
+      "word": "Foreign",
+      "days": ["DAY - 5", "DAY - 6", "DAY - 9", "DAY - 11"],
+      "spellings": ["Foriegn", "Foreign", "Foreign", "Foreign"],
+      "statuses": ["incorrect", "correct", "correct", "correct"],
+      "note": ""
+    },
+    {
+      "word": "Foreign",
+      "days": ["DAY - 5", "DAY - 6", "DAY - 9", "DAY - 11", "DAY - 13"],
+      "spellings": ["Foriegn", "Foreign", "Foreign", "Foreign", "Foreign"],
+      "statuses": ["correct", "correct", "correct", "correct", "correct"],
+      "note": ""
+    },
+    {
+      "word": "Awkward",
+      "days": ["DAY - 5", "DAY - 6", "DAY - 9"],
+      "spellings": ["Ocuword", "Awkward", "Awkward"],
+      "statuses": ["incorrect", "correct", "correct"],
+      "note": ""
+    }
+  ]
+}
+
